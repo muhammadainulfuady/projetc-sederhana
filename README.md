@@ -1,6 +1,6 @@
 <!-- Banner Project -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="Project Banner">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="Project Banner" width="100px">
 </p>
 
 <h1 align="center">🌐 Project Website Sederhana</h1>
