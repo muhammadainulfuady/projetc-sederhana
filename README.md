@@ -1,6 +1,6 @@
 <!-- Banner Project -->
 <p align="center">
-  <img src="https://via.placeholder.com/800x200.png?text=Project+Sederhana+Website" alt="Project Banner">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="Project Banner">
 </p>
 
 <h1 align="center">🌐 Project Website Sederhana</h1>
