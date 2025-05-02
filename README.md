@@ -43,3 +43,6 @@ git clone https://github.com/muhammadainulfuady/projetc-sederhana.git
 cd projetc-sederhana
 
 # 3. Buka file index.html di browser favorit kamu
+
+# 4. Kalo mau lihat secara langsung boleh
+https://muhammadainulfuady.github.io/projetc-sederhana/
