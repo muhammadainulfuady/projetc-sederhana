@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d7edff;
+  font-family: Inter;
+}
+
+.logo {
+  text-align: center;
+  margin: 5rem 0;
+  display: flex;
+  align-items: center;
+}
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  box-shadow: #4c6d8f 0px 20px 30px -10px;
+  max-width: 500px;
+  margin: 10rem auto;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.form-groub {
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-groub input {
+  margin-left: 1rem;
+  width: 200px;
+  height: 30px;
+  border-radius: 0.5rem;
+  border: 2px solid #b4bec2;
+}
+
+.form-groub label {
+  font-size: 20px;
+}
+
+.button-groub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button-groub .kirim {
+  color: #1ddc9d;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  border: 1px solid #1ddc9d;
+}
+
+.button-groub .kirim:hover {
+  background-color: #1ddc9d;
+  color: white;
+  transition: 0.5s;
+}
+
+.button-groub .hapus {
+  border: 1px solid tomato;
+  color: tomato;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+}
+
+.button-groub .hapus:hover {
+  background-color: tomato;
+  color: white;
+  transition: 0.5s;
+}
