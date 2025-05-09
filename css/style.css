@@ -5,6 +5,10 @@
   font-family: Inter;
 }
 
+body {
+  background-color: skyblue;
+}
+
 /* login page in website */
 .login-logo {
   text-align: center;
@@ -12,6 +16,7 @@
   display: flex;
   align-items: center;
 }
+
 .login-page {
   background-color: #d7edff;
   display: flex;
@@ -79,10 +84,58 @@
 
 /* main browsers */
 /* header */
+
 .header {
-  background-color: cyan;
+  background-color: #4c6d8f;
+  text-align: center;
+  padding: 0.6rem;
+  color: white;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem;
+  justify-content: space-between;
+}
+
+.navbar ul {
   display: flex;
   align-items: center;
+  gap: 2rem;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a {
+  font-weight: bold;
+  color: tomato;
+  text-decoration: none;
+  display: flex;
   justify-content: center;
-  padding: rem;
+  align-items: center;
+}
+
+/* responsife */
+@media screen and (max-width: 517px) {
+  .login-page {
+    display: block;
+    width: 90%;
+    background-color: aliceblue;
+    box-shadow: #4c6d8f 0px 20px 30px -10px;
+    max-width: 500px;
+    margin: 9rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  .login-logo {
+    text-align: center;
+    margin: 0;
+    display: block;
+  }
 }

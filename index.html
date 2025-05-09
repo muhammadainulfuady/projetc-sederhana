@@ -5,26 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
-    <head>
-      <!-- box icon -->
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
-      />
-      <!-- or -->
-      <link
-        rel="stylesheet"
-        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-      />
-      <!-- font google -->
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap"
-        rel="stylesheet"
-      />
-    </head>
-    <title>Document</title>
+    <!-- box icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- or -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap"
+      rel="stylesheet"
+    />
+    <title>Halaman login</title>
   </head>
   <body>
     <div class="login-page">
@@ -39,7 +37,9 @@
           <input type="password" name="password" id="password" required />
         </div>
         <div class="button-groub">
-          <button type="submit" class="kirim" onclick="login()">Submit</button>
+          <button type="button" class="kirim" onclick="login(event)">
+            Submit
+          </button>
           <button type="reset" class="hapus">Reset</button>
         </div>
       </form>
