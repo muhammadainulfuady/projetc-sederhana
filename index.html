@@ -5,15 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
-    <!-- box icon -->
+    <!-- fa-icons -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
-    />
-    <!-- or -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <!-- font google -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,15 +20,27 @@
     <title>Halaman login</title>
   </head>
   <body>
+    <!-- peringatan login -->
+    <div class="alert">
+      <h4>silahkan login terlebih dahulu sebelum masuk ke website</h4>
+      <h4>username : <span class="g-login">login</span></h4>
+      <h4>pasword : <span class="r-login">login123</span></h4>
+    </div>
+
+    <!-- card login -->
     <div class="login-page">
       <div class="login-logo"><h1>LOGIN</h1></div>
       <form action="./pages/main.html" method="get">
         <div class="form-groub">
-          <label for="username"><i class="bx bxs-user"></i> </label>
+          <label for="username">
+            <i class="fa fa-user" aria-hidden="true"></i>Username</label
+          >
           <input type="text" name="username" id="username" required />
         </div>
         <div class="form-groub">
-          <label for="password"> <i class="bx bx-hide"></i> </label>
+          <label for="password"
+            ><i class="fa fa-unlock-alt"></i>Password
+          </label>
           <input type="password" name="password" id="password" required />
         </div>
         <div class="button-groub">
