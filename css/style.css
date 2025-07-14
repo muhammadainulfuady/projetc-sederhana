@@ -9,112 +9,14 @@ body {
   background-color: skyblue;
 }
 
-/* allert login */
-.alert {
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  margin: 1rem 25rem;
-  flex-wrap: wrap;
-  font-style: italic;
-  background-color: black;
-  padding: 1rem;
-  border-radius: 2rem;
-  color: #989797;
-}
-
-.alert .g-login {
-  color: lightgreen;
-}
-
-.alert .r-login {
-  color: lightcoral;
-}
-
-/* index browser */
-/* login page in website */
-.login-logo {
-  text-align: center;
-  margin: 5rem 0;
-  display: flex;
-}
-
-.login-page {
-  background-color: #d7edff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: aliceblue;
-  box-shadow: #4c6d8f 0px 20px 30px -10px;
-  max-width: 500px;
-  margin: 3rem auto;
-  padding: 3rem;
-  border-radius: 1rem;
-}
-
-.form-groub {
-  margin: 2rem;
-}
-
-.form-groub input {
-  margin-left: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 200px;
-  height: 30px;
-  border-radius: 0.5rem;
-  border: 2px solid #b4bec2;
-}
-
-.form-groub label {
-  font-size: 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.button-groub {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-.button-groub .kirim {
-  color: #1ddc9d;
-  padding: 0.3rem;
-  border-radius: 0.2rem;
-  border: 1px solid #1ddc9d;
-}
-
-.button-groub .kirim:hover {
-  background-color: #1ddc9d;
-  color: white;
-  transition: 0.5s;
-}
-
-.button-groub .hapus {
-  border: 1px solid tomato;
-  color: tomato;
-  padding: 0.3rem;
-  border-radius: 0.2rem;
-}
-
-.button-groub .hapus:hover {
-  background-color: tomato;
-  color: white;
-  transition: 0.5s;
-}
-
-/* main browsers */
 /* navbar */
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem 1rem;
   justify-content: space-between;
+  padding: 1em;
+  background-color: aliceblue;
 }
 
 .navbar ul {
@@ -134,63 +36,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-/* responsife */
-@media screen and (max-width: 517px) {
-  .login-page {
-    display: flex;
-    width: 90%;
-    background-color: aliceblue;
-    box-shadow: #4c6d8f 0px 20px 30px -10px;
-    max-width: 500px;
-    margin: 2rem auto;
-    padding: 2rem;
-    border-radius: 1rem;
-  }
-
-  .login-logo {
-    text-align: center;
-    margin: 0;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 431px) {
-  .login-page {
-    display: block;
-    width: 90%;
-    background-color: aliceblue;
-    box-shadow: #4c6d8f 0px 20px 30px -10px;
-    max-width: 500px;
-    margin: 2rem auto;
-    padding: 2rem;
-    border-radius: 1rem;
-  }
-
-  .login-page label {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .form-groub input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10rem;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 1029px) {
-  .alert {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    margin: 1rem auto;
-  }
 }
