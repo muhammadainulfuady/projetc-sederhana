@@ -1,3 +1,4 @@
+alert("hallo")
 let user_login = document.querySelector("#accept");
 let input_user = document.querySelector("#username");
 let input_pass = document.querySelector("#password");
