@@ -83,7 +83,9 @@ input {
   align-items: center;
   font-size: 10px;
   cursor: pointer;
-  margin-top: 10px;
+  max-width: 0%;
+  margin: 10px auto;
+  background-color: red;
 }
 
 .popup {
@@ -103,4 +105,15 @@ input {
   background-color: lightblue;
   padding: 10px;
   border: 1px solid tomato;
+}
+
+@media (max-width: 952px) {
+  .main-login {
+    width: 60%;
+  }
+}
+@media (max-width: 489px) {
+  .main-login {
+    width: 90%;
+  }
 }

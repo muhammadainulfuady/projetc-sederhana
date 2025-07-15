@@ -1,4 +1,3 @@
-alert("hallo")
 let user_login = document.querySelector("#accept");
 let input_user = document.querySelector("#username");
 let input_pass = document.querySelector("#password");
@@ -8,7 +7,7 @@ let login = function () {
     let val_pass = input_pass.value;
     let us = "admin";
     let pw = "123";
-    if (val_user == pw && val_pass == us) {
+    if (val_user == us && val_pass == pw) {
       window.location.assign(`./pages/about.html`);
     } else {
       alert("Temukak mata");
